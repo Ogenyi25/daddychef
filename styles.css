@@ -1,5 +1,5 @@
 /*========= GOOGLE FONTS =========*/
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&family=Great+Vibes:wght@400;500;600;700;800;900&display=swap');
 
 /*============ BASE ============*/
 * {
@@ -18,10 +18,22 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
 }
+.scroll-header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    background: #2b2b29;
+}
 header {
     width: 100%;
-    background: #c3c3c3;
     height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .5s;
+    z-index: 10000;
+    background:transparent;
 }
 nav {
     width: 100%;
@@ -65,6 +77,66 @@ a.active, a:hover {
 }
 #check {
     display: none;
+}
+
+.welcome-section {
+    height: 90vh;
+    align-content: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url('./images/background.png');
+    background-size: cover;
+    background-position: center;
+}
+.welcome-section .welcome-data {
+    padding: 250px 85px 10px 85px;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size: 50px;
+    color: #E79400;
+    line-height: 55px;
+    font-family: Great Vibes;
+    font-size: 120px;
+}
+.motto {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px 0 20px 0;
+}
+.description {
+    font-size: 15px;
+    font-weight: 100;
+    position: absolute;
+    width: 750px;
+    height: 62px;
+    left: 315px;
+    text-align: center;
+    font-style: normal;
+
+}
+.button {
+    margin-top: 100px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.button:hover {
+    border: 2px solid #E79400;
+    color: #E79400;
 }
 
 @media only screen and (max-width: 768px) {
