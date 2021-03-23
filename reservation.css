@@ -1,0 +1,145 @@
+.reservation-section {
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('./images/reservationbg.png');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    text-align: center;
+}
+.reservation-details {
+    text-align: center;
+    
+}
+.reservation-details .reserve-head {
+    color: #e79400;
+    font-family: Great Vibes;
+    font-size: 80px;
+    /* line-height: 100px; */
+    text-transform: capitalize;
+    padding-top: 80px;
+}
+.reservation-details .reserve-title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 40px 0;
+}
+form .input-box {
+    width: 300px;
+    height: 50px;
+    outline: none;
+    border: 2px solid #fff;
+    background: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    padding: 0 20px;
+    font-size: 18px;
+}
+.input-box::placeholder {
+    color: rgba(255, 255, 255, 0.829);
+    padding: 0 5px;
+    font-size: 14px;
+}
+.reserve-btn {
+    padding: 18px 50px;
+    font-size: 18px;
+    color: #fff;
+    background: #e79400;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: .5s all;
+}
+.reserve-btn:hover {
+    background: transparent;
+    border: 2px solid #e79400;
+    color: #e79400;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .reservation-section {
+        margin-top: 150px;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('./images/reservationbg.png');
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+        text-align: center;
+    }
+    .reservation-details {
+        text-align: center;
+        margin-left: -100px;
+        
+    }
+    .reservation-details .reserve-head {
+        color: #e79400;
+        font-family: Great Vibes;
+        font-size: 80px;
+        /* line-height: 100px; */
+        text-transform: capitalize;
+        padding-top: 80px;
+    }
+    .reservation-details .reserve-title {
+        color: #fff;
+        font-size: 40px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        margin-top: -20px;
+        margin-bottom: 50px;
+    }
+    form {
+        justify-content: center;
+        align-items: center;
+        display: block;
+        margin: 10px 0 10px -50px
+    }
+    form .input-box {
+        width: 65%;
+        height: 50px;
+        outline: none;
+        border: 2px solid #fff;
+        background: transparent;
+        margin-left: -50px;
+        color: #fff;
+        padding: 0 20px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .input-box::placeholder {
+        color: rgba(255, 255, 255, 0.829);
+        padding: 0 5px;
+        font-size: 14px;
+    }
+    .reserve-btn {
+        padding: 18px 50px;
+        font-size: 18px;
+        color: #fff;
+        background: #e79400;
+        border: none;
+        outline: none;
+        border-radius: 50px;
+        margin-top: 40px;
+        cursor: pointer;
+        transition: .5s all;
+    }
+    .reserve-btn:hover {
+        background: transparent;
+        border: 2px solid #e79400;
+        color: #e79400;
+    }
+}

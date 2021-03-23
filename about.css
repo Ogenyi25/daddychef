@@ -53,3 +53,66 @@
     background: transparent;
     color: #2B2B29;
 }
+
+
+@media only screen and (max-width: 768px) {
+
+    .about-section {
+        margin-top: 200px;
+    }
+    .about-data {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-foto {
+        text-align: center;
+    }
+    .about-foto img {
+        display: none;
+    }
+    .about-content {
+        text-align: center;
+        margin-top: -100px;
+        margin-right: auto;
+        margin-left: -100px;
+    }
+    .about-content .about-title {
+        font-family: Great Vibes;
+        font-size: 70px;
+        line-height: 100px;
+        color: #E79400;
+        margin-bottom: -20px;
+    }
+    .about-content .about-motto {
+        font-family: Poppins;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .about-content .about-description {
+        font-family: 'Poppins';
+        font-size: 14px;
+        line-height: 150%;
+        margin-top: 20px;
+        font-weight: lighter;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-content .about-btn {
+        padding: 15px 40px;
+        color: #fff;
+        background: #2B2B29;
+        border-radius: 50px;
+        border: none;
+        margin-top: 30px;
+        cursor: pointer;
+        transition: .5s;
+    }
+    .about-btn:hover {
+        border: 2px solid;
+        background: transparent;
+        color: #2B2B29;
+    }
+}
