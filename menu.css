@@ -106,7 +106,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 150px;
-        width: 100%;
+        width: 729px;
     }
     .menu-section {
         background: linear-gradient(rgba(0, 0, 0, 0.966), rgba(0, 0, 0, 0.719)), url('./images/background.png');
@@ -114,18 +114,20 @@
         background-size: cover;
         background-position: center;
         margin-bottom: 100px;
-        margin-left: -100px;
+        margin-left: 0px;  
     }
     .our-menu-section .menu-head {
         font-size: 18px;
         font-weight: 600;
         color: #e79400;
+        margin-left: -10px;
     }
     .our-menu-section .menu-title {
         font-size: 35px;
         font-weight: bolder;
         text-transform: uppercase;
         color: #fff;
+        margin-left: -10px;
     }
     .our-menu-section .menu-motto {
         color: #e79400;
@@ -133,6 +135,7 @@
         font-size: 40px;
         /* line-height: 100px; */
         text-transform: capitalize;
+        margin-left: -10px;
     }
     .our-menu-section .menu-description {
         color: #fff;
@@ -140,24 +143,23 @@
         margin-top: 20px;
         padding-bottom: 30px;
         font-size: 14px;
-        width: 65%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 68%;
+        text-align: center;
     }
     .menu-card-section {
         justify-content: center;
         align-items: center;
         display: block;
-        margin-left: auto;
+        margin-left: 30px;
         margin-right: auto;
-        width: 100%;
+        width: 720px;
     }
     .menu-card {
         box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
         border-radius: 15px 15px 0px 0px;
         margin-left: 10px;
         margin-right: -130px;
-        width: 73%;
+        width: 90%;
         cursor: pointer;
         transition: .5s;
         margin-bottom: 50px;
@@ -173,21 +175,22 @@
         text-align: center;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
     .card-details .menu-name {
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 600;
         padding-bottom: 20px;
     }
     .card-details .menu-name-details {
-        font-size: 13px;
+        font-size: 16px;
         width: 320px;
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 20px;
     }
     .card-details .menu-price {
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 600;
         color: #e79400;
         margin-bottom: 20px;

@@ -75,7 +75,8 @@
         text-align: center;
         margin-top: -100px;
         margin-right: auto;
-        margin-left: -100px;
+        margin-left: 0px;
+        width: 729px;
     }
     .about-content .about-title {
         font-family: Great Vibes;
@@ -92,16 +93,17 @@
     }
     .about-content .about-description {
         font-family: 'Poppins';
-        font-size: 14px;
+        font-size: 18px;
         line-height: 150%;
         margin-top: 20px;
         font-weight: lighter;
-        width: 60%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
+        text-align: center;
     }
     .about-content .about-btn {
-        padding: 15px 40px;
+        padding: 30px 80px;
         color: #fff;
         background: #2B2B29;
         border-radius: 50px;

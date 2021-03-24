@@ -191,7 +191,6 @@ a.active, a:hover {
     }
     .checkbtn {
         display: inline-block;
-        
     }
     ul {
         position: fixed;
@@ -222,7 +221,7 @@ a.active, a:hover {
     }
 
     .welcome-section {
-        width: 100%;
+        width: 729px;
         height: 70vh;
         align-content: center;
         justify-content: center;
@@ -231,7 +230,7 @@ a.active, a:hover {
         background-position: center;
     }
     .welcome-section .welcome-data {
-        padding: 180px 0 10px 0;
+        padding: 180px 0 10px 150px;
         text-align: center;
         color: #fff;
         justify-content: center;
@@ -239,28 +238,29 @@ a.active, a:hover {
         
     }
     .title {
-        font-size: 80px;
+        font-size: 120px;
         color: #E79400;
-        line-height: 55px;
+        line-height: 80px;
         font-family: Great Vibes;
         text-align: center;
         margin-left: -150px;
     }
     .motto {
-        font-size: 25px;
+        font-size: 45px;
         text-transform: uppercase;
         font-weight: 600;
-        padding: 5px 0 20px 0;
+        padding: 5px 0 5px 0;
         margin-left: -150px;
     }
     .description {
-        font-size: 13px;
+        font-size: 17px;
         font-weight: 100;
         margin-left: auto;
         margin-right: auto;
-        width: 65%;
+        width: 90%;
         height: 62px;
         left: 10px;
+        padding-left: 100px;
     }
     .button {
         margin-top: 140px;
@@ -277,7 +277,7 @@ a.active, a:hover {
         line-height: 30px;
         cursor: pointer;
         transition: all .5s;
-        margin-left: -130px;
+        margin-left: -150px;
     }
     .button:hover {
         border: 2px solid #E79400;

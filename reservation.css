@@ -22,7 +22,7 @@
 }
 .reservation-details .reserve-title {
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bolder;
     text-transform: uppercase;
     margin-top: -20px;
@@ -78,12 +78,13 @@ form .input-box {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('./images/reservationbg.png');
         background-size: cover;
         background-position: center;
-        height: 80vh;
+        height: 100vh;
         text-align: center;
+        width: 729px;
     }
     .reservation-details {
         text-align: center;
-        margin-left: -100px;
+        margin-left: -20px;
         
     }
     .reservation-details .reserve-head {
@@ -92,7 +93,7 @@ form .input-box {
         font-size: 80px;
         /* line-height: 100px; */
         text-transform: capitalize;
-        padding-top: 80px;
+        padding-top: 30px;
     }
     .reservation-details .reserve-title {
         color: #fff;
@@ -106,15 +107,15 @@ form .input-box {
         justify-content: center;
         align-items: center;
         display: block;
-        margin: 10px 0 10px -50px
+        margin: 10px 0 10px 0px
     }
     form .input-box {
-        width: 65%;
-        height: 50px;
+        width: 85%;
+        height: 70px;
         outline: none;
         border: 2px solid #fff;
         background: transparent;
-        margin-left: -50px;
+        margin-left: -5px;
         color: #fff;
         padding: 0 20px;
         font-size: 18px;
@@ -123,7 +124,7 @@ form .input-box {
     .input-box::placeholder {
         color: rgba(255, 255, 255, 0.829);
         padding: 0 5px;
-        font-size: 14px;
+        font-size: 18px;
     }
     .reserve-btn {
         padding: 18px 50px;
@@ -133,7 +134,8 @@ form .input-box {
         border: none;
         outline: none;
         border-radius: 50px;
-        margin-top: 40px;
+        margin-top: 20px;
+        margin-left: -10px;
         cursor: pointer;
         transition: .5s all;
     }
